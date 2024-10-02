@@ -7,7 +7,7 @@
         text-align: center; 
     }
 
-    #star{
+    .star{
         animation: pulsingStar 1s infinite linear; /* right variable name?? */
         transform-origin: center;
         transform-box: fill-box; /* idk what this does */
@@ -18,7 +18,7 @@
             transform: scale(0); /* she starts out small */
         }
         to {
-            transform: scale(10);/* make star gROW */
+            transform: scale(2);/* make star gROW */
 
         }
     }

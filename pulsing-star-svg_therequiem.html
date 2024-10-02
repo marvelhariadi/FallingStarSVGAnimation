@@ -1,0 +1,50 @@
+<!-- apparently I just need to copy this into my website div that's wild lol -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulsing Star</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* height: 100vh; */
+            margin: 0;
+            /* background-color: #1a1a2e; */
+        }
+
+        .star {
+            animation: pulsingStar 2s infinite ease-in-out;
+            transform-origin: center;
+            transform-box: fill-box;
+        }
+
+        @keyframes pulsingStar {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.5); }
+        }
+    </style>
+</head>
+<body>
+    <svg width="459" height="387" viewBox="0 0 459 387" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M422.91 342.867L286.201 185.001L229.781 247.388L418.297 355.138L422.91 342.867Z" fill="url(#paint0_linear_819_76926)"></path>
+        <path class="star" d="M416.001 317.267L414.09 336.318C413.332 339.282 411.018 341.598 408.051 342.355L389 344.266L408.051 346.176C411.017 346.933 413.331 349.249 414.09 352.213L416.001 371.264L417.911 352.213C418.669 349.248 420.983 346.933 423.949 346.176L443 344.266L423.949 342.355C420.983 341.598 418.669 339.282 417.911 336.318L416.001 317.267Z" fill="#FCF7ED"></path>
+        <path opacity="0.3" d="M415.971 371.594C401.247 371.594 389.31 359.657 389.31 344.933C389.31 330.209 401.247 318.273 415.971 318.273C430.695 318.273 442.631 330.209 442.631 344.933C442.631 359.657 430.695 371.594 415.971 371.594Z" fill="#FCF7ED"></path>
+        <path opacity="0.4" d="M420.606 339.213L1.36743 0L0.000244141 1.68574L411.336 350.652L420.606 339.213Z" fill="url(#paint1_linear_819_76926)"></path>
+        <defs>
+            <linearGradient id="paint0_linear_819_76926" x1="408.08" y1="341.79" x2="251.842" y2="211.049" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#553F6A" stop-opacity="0.27"></stop>
+                <stop offset="1" stop-color="#3E2F4C"></stop>
+                <stop offset="1" stop-color="#3E2F4C"></stop>
+                <stop offset="1.0001" stop-color="#8319C4" stop-opacity="0"></stop>
+            </linearGradient>
+            <linearGradient id="paint1_linear_819_76926" x1="420.607" y1="175.326" x2="0.000911132" y2="175.326" gradientUnits="userSpaceOnUse">
+                <stop stop-color="white" stop-opacity="0.7"></stop>
+                <stop offset="1" stop-color="#3E2E4D" stop-opacity="0"></stop>
+            </linearGradient>
+        </defs>
+    </svg>
+</body>
+</html>
