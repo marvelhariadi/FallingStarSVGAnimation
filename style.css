@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* idk what this does */
+}
+    body{
+        text-align: center; 
+    }
+
+    #star{
+        animation: pulsingStar 1s infinite linear; /* right variable name?? */
+        transform-origin: center;
+        transform-box: fill-box; /* idk what this does */
+    }
+
+    @keyframes pulsingStar{
+        from{
+            transform: scale(0); /* she starts out small */
+        }
+        to {
+            transform: scale(10);/* make star gROW */
+
+        }
+    }
