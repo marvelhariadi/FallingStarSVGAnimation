@@ -1,5 +1,5 @@
 # Purpose
-* *Animating an SVG file to make an animated asset for my UX Design portfolio.
+* Animating an SVG file to make an animated asset for my UX Design portfolio.
 * Dipping my toes into front-end development to herald my multitalented woman in STEM era.
 
 # Learnings
