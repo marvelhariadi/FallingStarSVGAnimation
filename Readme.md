@@ -3,4 +3,7 @@
 * Dipping my toes into front-end development to herald my multitalented woman in STEM era.
 
 # Learnings
-* The "asset" does not have to be a standalone .jpg/.png/.svg/etc. file. I copy and pasted in HTML code directly into the div. 
+* The "asset" does not have to be a standalone .jpg/.png/.svg/etc. file. I copy and pasted in HTML code directly into the div.
+
+# Special Acknowledgements
+* Thank you claudeAI for saving my tears
